@@ -18,3 +18,8 @@ mvn exec:java -Dexec.mainClass="com.geekjava.App"
 - Docker
 - Docker Compose
 
+```bash
+# criando o projeto MAVEN, se necessario
+mvn archetype:generate -DgroupId=com.example -DartifactId=my-project -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+```
+
