@@ -1,0 +1,37 @@
+# Arquivos gerados pelo Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+release.properties
+dependency-reduced-pom.xml
+build.log
+
+# Arquivos de log
+*.log
+*.log.*
+log/
+logs/
+
+# Diretórios de compilação e saída
+bin/
+target/
+
+# Arquivos de configuração de IDE (por exemplo, IntelliJ IDEA ou Eclipse)
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# Arquivos temporários
+*.swp
+*~
+
+# Arquivos de configuração do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Dependências baixadas pelo Maven
+repository/

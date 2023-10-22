@@ -1,0 +1,18 @@
+version: '3'
+services:
+  mysql:
+    image: mysql:5.7
+    container_name: mysql_java
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: jmysql
+      MYSQL_USER: julio
+      MYSQL_PASSWORD: julio
+    ports:
+      - "3304:3306"
+    volumes:
+      - mysql_dados_new:/var/lib/mysql
+      - ./initdb.sql:/docker-entrypoint-initdb.d/init.sql
+
+volumes:
+  mysql_dados_new:
